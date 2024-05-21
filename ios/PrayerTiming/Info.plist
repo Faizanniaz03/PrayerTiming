@@ -26,14 +26,13 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
 		<key>NSAllowsArbitraryLoads</key>
 		<false/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -48,5 +47,108 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BodoniModa-Italic-VariableFont_opsz,wght.ttf</string>
+		<string>BodoniModa-VariableFont_opsz,wght.ttf</string>
+		<string>BodoniModa_18pt-Black.ttf</string>
+		<string>BodoniModa_18pt-BlackItalic.ttf</string>
+		<string>BodoniModa_18pt-Bold.ttf</string>
+		<string>BodoniModa_18pt-BoldItalic.ttf</string>
+		<string>BodoniModa_18pt-ExtraBold.ttf</string>
+		<string>BodoniModa_18pt-ExtraBoldItalic.ttf</string>
+		<string>BodoniModa_18pt-Italic.ttf</string>
+		<string>BodoniModa_18pt-Medium.ttf</string>
+		<string>BodoniModa_18pt-MediumItalic.ttf</string>
+		<string>BodoniModa_18pt-Regular.ttf</string>
+		<string>BodoniModa_18pt-SemiBold.ttf</string>
+		<string>BodoniModa_18pt-SemiBoldItalic.ttf</string>
+		<string>BodoniModa_28pt-Black.ttf</string>
+		<string>BodoniModa_28pt-BlackItalic.ttf</string>
+		<string>BodoniModa_28pt-Bold.ttf</string>
+		<string>BodoniModa_28pt-BoldItalic.ttf</string>
+		<string>BodoniModa_28pt-ExtraBold.ttf</string>
+		<string>BodoniModa_28pt-ExtraBoldItalic.ttf</string>
+		<string>BodoniModa_28pt-Italic.ttf</string>
+		<string>BodoniModa_28pt-Medium.ttf</string>
+		<string>BodoniModa_28pt-MediumItalic.ttf</string>
+		<string>BodoniModa_28pt-Regular.ttf</string>
+		<string>BodoniModa_28pt-SemiBold.ttf</string>
+		<string>BodoniModa_28pt-SemiBoldItalic.ttf</string>
+		<string>BodoniModa_48pt-Black.ttf</string>
+		<string>BodoniModa_48pt-BlackItalic.ttf</string>
+		<string>BodoniModa_48pt-Bold.ttf</string>
+		<string>BodoniModa_48pt-BoldItalic.ttf</string>
+		<string>BodoniModa_48pt-ExtraBold.ttf</string>
+		<string>BodoniModa_48pt-ExtraBoldItalic.ttf</string>
+		<string>BodoniModa_48pt-Italic.ttf</string>
+		<string>BodoniModa_48pt-Medium.ttf</string>
+		<string>BodoniModa_48pt-MediumItalic.ttf</string>
+		<string>BodoniModa_48pt-Regular.ttf</string>
+		<string>BodoniModa_48pt-SemiBold.ttf</string>
+		<string>BodoniModa_48pt-SemiBoldItalic.ttf</string>
+		<string>BodoniModa_72pt-Black.ttf</string>
+		<string>BodoniModa_72pt-BlackItalic.ttf</string>
+		<string>BodoniModa_72pt-Bold.ttf</string>
+		<string>BodoniModa_72pt-BoldItalic.ttf</string>
+		<string>BodoniModa_72pt-ExtraBold.ttf</string>
+		<string>BodoniModa_72pt-ExtraBoldItalic.ttf</string>
+		<string>BodoniModa_72pt-Italic.ttf</string>
+		<string>BodoniModa_72pt-Medium.ttf</string>
+		<string>BodoniModa_72pt-MediumItalic.ttf</string>
+		<string>BodoniModa_72pt-Regular.ttf</string>
+		<string>BodoniModa_72pt-SemiBold.ttf</string>
+		<string>BodoniModa_72pt-SemiBoldItalic.ttf</string>
+		<string>BodoniModa_9pt-Black.ttf</string>
+		<string>BodoniModa_9pt-BlackItalic.ttf</string>
+		<string>BodoniModa_9pt-Bold.ttf</string>
+		<string>BodoniModa_9pt-BoldItalic.ttf</string>
+		<string>BodoniModa_9pt-ExtraBold.ttf</string>
+		<string>BodoniModa_9pt-ExtraBoldItalic.ttf</string>
+		<string>BodoniModa_9pt-Italic.ttf</string>
+		<string>BodoniModa_9pt-Medium.ttf</string>
+		<string>BodoniModa_9pt-MediumItalic.ttf</string>
+		<string>BodoniModa_9pt-Regular.ttf</string>
+		<string>BodoniModa_9pt-SemiBold.ttf</string>
+		<string>BodoniModa_9pt-SemiBoldItalic.ttf</string>
+		<string>Inter-Black.ttf</string>
+		<string>Inter-Bold.ttf</string>
+		<string>Inter-ExtraBold.ttf</string>
+		<string>Inter-ExtraLight.ttf</string>
+		<string>Inter-Light.ttf</string>
+		<string>Inter-Medium.ttf</string>
+		<string>Inter-Regular.ttf</string>
+		<string>Inter-SemiBold.ttf</string>
+		<string>Inter-Thin.ttf</string>
+		<string>Inter-VariableFont_slnt,wght.ttf</string>
+		<string>Outfit-Black.ttf</string>
+		<string>Outfit-Bold.ttf</string>
+		<string>Outfit-ExtraBold.ttf</string>
+		<string>Outfit-ExtraLight.ttf</string>
+		<string>Outfit-Light.ttf</string>
+		<string>Outfit-Medium.ttf</string>
+		<string>Outfit-Regular.ttf</string>
+		<string>Outfit-SemiBold.ttf</string>
+		<string>Outfit-Thin.ttf</string>
+		<string>Poppins-Black.ttf</string>
+		<string>Poppins-BlackItalic.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-BoldItalic.ttf</string>
+		<string>Poppins-ExtraBold.ttf</string>
+		<string>Poppins-ExtraBoldItalic.ttf</string>
+		<string>Poppins-ExtraLight.ttf</string>
+		<string>Poppins-ExtraLightItalic.ttf</string>
+		<string>Poppins-Italic.ttf</string>
+		<string>Poppins-Light.ttf</string>
+		<string>Poppins-LightItalic.ttf</string>
+		<string>Poppins-Medium.ttf</string>
+		<string>Poppins-MediumItalic.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Poppins-SemiBold.ttf</string>
+		<string>Poppins-SemiBoldItalic.ttf</string>
+		<string>Poppins-Thin.ttf</string>
+		<string>Poppins-ThinItalic.ttf</string>
+		<string>TenorSans-Regular.ttf</string>
+	</array>
 </dict>
 </plist>

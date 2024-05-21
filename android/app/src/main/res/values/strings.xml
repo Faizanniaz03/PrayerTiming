@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PrayerTiming</string>
+    <string name="facebook_app_id">339438615911817</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">1749262944691abd1bc69eba714cff03</string>
+
+
 </resources>

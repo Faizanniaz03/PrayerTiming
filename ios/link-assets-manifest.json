@@ -1,0 +1,413 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/BodoniModa-Italic-VariableFont_opsz,wght.ttf",
+      "sha1": "64bb137f070d8f75f573248031c94957c93fb30f"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa-VariableFont_opsz,wght.ttf",
+      "sha1": "f76bdf9e26b4d1f53e6baa53a46d1494f351c583"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-Black.ttf",
+      "sha1": "42d58599b43a549228c6ff13aa56989113f34832"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-BlackItalic.ttf",
+      "sha1": "b96469aa1888c6a2ba14023b58b1789a519f46b7"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-Bold.ttf",
+      "sha1": "ed5bfd55ebbc2f69ebba2ae3cc88c445290bc8bb"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-BoldItalic.ttf",
+      "sha1": "e99b07076d89643e18e8cdee2485f9d1d554a840"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-ExtraBold.ttf",
+      "sha1": "3299ccc93c3d3b33880260a385f9f5540c6822ff"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-ExtraBoldItalic.ttf",
+      "sha1": "2c8b52a5322c36e2e6adc51e3edd7aa3cb537481"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-Italic.ttf",
+      "sha1": "b9b9b5cf4c3b8c8eec0dfc6f874b9aefd0fbfd03"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-Medium.ttf",
+      "sha1": "bc9ff2d31336bb09bf6d6d04e2556e43705abcb6"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-MediumItalic.ttf",
+      "sha1": "f6c30af21f8551a6180f139a04ba3e12be9223ce"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-Regular.ttf",
+      "sha1": "2cb92bc7371c36159eea01f31fcf69c74897e3a9"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-SemiBold.ttf",
+      "sha1": "887f02deae7f0beeabeb9aa9e89e073bc4544dc9"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_18pt-SemiBoldItalic.ttf",
+      "sha1": "40035a64f0bf9076ecfb6189bf9509ef2918b5f6"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-Black.ttf",
+      "sha1": "795006ab772d5c4c37e3a7ba95289ce4c8b5059a"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-BlackItalic.ttf",
+      "sha1": "fb93fe98056e29b1681f4612149030ef01a5cf73"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-Bold.ttf",
+      "sha1": "5f9d52e81a17b519f4a306706e4f859117667056"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-BoldItalic.ttf",
+      "sha1": "909a90d5680c89662bec637087fd91f539c9ea67"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-ExtraBold.ttf",
+      "sha1": "51e3c5647d2f57fdefe10d4edd679cc9efa906aa"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-ExtraBoldItalic.ttf",
+      "sha1": "90a1dd0d83abeaf2bf018261bfd49bbea1c11301"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-Italic.ttf",
+      "sha1": "a7c7aa369109532a80f1927feaeda437f8b9f4b5"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-Medium.ttf",
+      "sha1": "cda3131ea2590ee1a99239c4bf62b61b59c39a08"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-MediumItalic.ttf",
+      "sha1": "5e1e5eeb0a52f81961adab8949ceb1fafeb6bad8"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-Regular.ttf",
+      "sha1": "fd5a2c9f173a0ed6328c7d4d6d0800124bc339bb"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-SemiBold.ttf",
+      "sha1": "fcde31e20a753973b34ad1def0c6739d9b55000d"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_28pt-SemiBoldItalic.ttf",
+      "sha1": "a29971c9539f7c1b8282e029832003052536d7ec"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-Black.ttf",
+      "sha1": "c8bac210b1c7b731cf8d64b06216e54c78f4dba2"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-BlackItalic.ttf",
+      "sha1": "9343e584c40ba4ced0af8bb7a0b519b6a83b6367"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-Bold.ttf",
+      "sha1": "edcca545800889905e6f85b0e7ee1b046eb65716"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-BoldItalic.ttf",
+      "sha1": "0f5aff53ff75c775ba1e99e0d0ef319bde55901e"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-ExtraBold.ttf",
+      "sha1": "817abf9540f0e03f79152039163efa33197c9fab"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-ExtraBoldItalic.ttf",
+      "sha1": "5c7b0e347f16ef037aaa5b7152aab6928133a96f"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-Italic.ttf",
+      "sha1": "da89646ebadf57cdd21763a9c2a364d3c12773ef"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-Medium.ttf",
+      "sha1": "8c6564c114094fc58c5ddd507ed12d84b3cb2fff"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-MediumItalic.ttf",
+      "sha1": "1ddb8e31a8e2d23baf5d746bda57d63bf603fd4b"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-Regular.ttf",
+      "sha1": "deb366105f4b6a00db956ae4f31d3b45f6dce77b"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-SemiBold.ttf",
+      "sha1": "dbaf60875e72f9be925b45003b9e6a3c95a56277"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_48pt-SemiBoldItalic.ttf",
+      "sha1": "1f1b65933ae45c0eb1860b053dc91ab269d0d426"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-Black.ttf",
+      "sha1": "2ea29c10d4b5620f856ad08b7b377282c920e266"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-BlackItalic.ttf",
+      "sha1": "1897dabfddefe8ed5aa546098ef7f3e24525d39c"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-Bold.ttf",
+      "sha1": "2ba085f415b769998e87aaf2746705e35cb55906"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-BoldItalic.ttf",
+      "sha1": "59a4c502cf9e4f1bf5e9a6c211fa12894890d5c8"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-ExtraBold.ttf",
+      "sha1": "ce39b59c4190fc192c456531738aac0eb98b41f9"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-ExtraBoldItalic.ttf",
+      "sha1": "eee26cb904228b5162f6b19b184c949823d24916"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-Italic.ttf",
+      "sha1": "565994b28876d2632a746a17459072f293747ae4"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-Medium.ttf",
+      "sha1": "b6a71b85f63a23e3134798f24229d2a64a2a06ee"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-MediumItalic.ttf",
+      "sha1": "0c3d677fa787b6fe973b673bc815bb2ac59fc19a"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-Regular.ttf",
+      "sha1": "7c3d1e1965cd772526abc310aa5720656cb45ed5"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-SemiBold.ttf",
+      "sha1": "9e8b858781bee37d69f54593cf7c3c549b613e46"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_72pt-SemiBoldItalic.ttf",
+      "sha1": "7976766822b0ea1a6bcaa1a5d8475c6d7c0a793e"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-Black.ttf",
+      "sha1": "a40c72549ea1b03f2f844178a687427e2d35acda"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-BlackItalic.ttf",
+      "sha1": "99f4fc5fe295f8eb739e977e612f4db287de676a"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-Bold.ttf",
+      "sha1": "fe7fedd35970d2e4c6e6063d74c3e6cc3f24645c"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-BoldItalic.ttf",
+      "sha1": "faa6fa6f15cfc0dd6062aca7cd9346657975879d"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-ExtraBold.ttf",
+      "sha1": "d077845bd0d329e2baa77b8780ab5470afc197b5"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-ExtraBoldItalic.ttf",
+      "sha1": "1373368bc0e327e51b5bce242a231da429388f4a"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-Italic.ttf",
+      "sha1": "a3446c7a8b8099cb22adb396470c4e88fa05de90"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-Medium.ttf",
+      "sha1": "8f4107a152e333378f8280a22b7c61316c3495cb"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-MediumItalic.ttf",
+      "sha1": "315a666c8dd10cd275c7605634ed955bc838ca29"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-Regular.ttf",
+      "sha1": "d1adcdc03e13a0179f5aa2b3acc43404d9a22641"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-SemiBold.ttf",
+      "sha1": "1defde650e281691a00a845980874310c99f21f5"
+    },
+    {
+      "path": "src/assets/fonts/BodoniModa_9pt-SemiBoldItalic.ttf",
+      "sha1": "024d582e9e0012a5410bb2593bc5344eb70cd49b"
+    },
+    {
+      "path": "src/assets/fonts/Bodoni_Moda,Tenor_Sans/Bodoni_Moda/OFL.txt",
+      "sha1": "a27a92fcf979404e5848e642f9b88783848f739d"
+    },
+    {
+      "path": "src/assets/fonts/Bodoni_Moda,Tenor_Sans/Bodoni_Moda/README.txt",
+      "sha1": "29c1113bcc72ef400d4a89e8e51dbe0165f8a1fc"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Black.ttf",
+      "sha1": "f79fa58ace5f55e338c99bf71e7e0702841df6f2"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Bold.ttf",
+      "sha1": "47ff07c75746682133b81e7ac0537ce50a4c9916"
+    },
+    {
+      "path": "src/assets/fonts/Inter-ExtraBold.ttf",
+      "sha1": "c9b3d2f2449ab2c67ff075f806973fa3d7e104b3"
+    },
+    {
+      "path": "src/assets/fonts/Inter-ExtraLight.ttf",
+      "sha1": "f78ee1d6cbfc64f656247c604ef270ef116abbf5"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Light.ttf",
+      "sha1": "cbb2506d8da21edbb2dc8cfa26e3b42a97d138f8"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Medium.ttf",
+      "sha1": "e76f580811e031813e7150131a0724811cdd737a"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Regular.ttf",
+      "sha1": "cfa780d0b50b2bb7eacb82984f1b18a95aaa40c5"
+    },
+    {
+      "path": "src/assets/fonts/Inter-SemiBold.ttf",
+      "sha1": "5e0c44e57e7e090252d79f622899e67585bb892c"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Thin.ttf",
+      "sha1": "757805e615c974756646e54ceff8e409d5c47207"
+    },
+    {
+      "path": "src/assets/fonts/Inter-VariableFont_slnt,wght.ttf",
+      "sha1": "26752c31bd3be24b0608ee27ac8c9a9a27245268"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-Black.ttf",
+      "sha1": "51e4964fd4b0072e2f90fd3b1d9883a142130e74"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-Bold.ttf",
+      "sha1": "dd5f4206d22d8b093a53a2f6423ed532fd656aeb"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-ExtraBold.ttf",
+      "sha1": "89c8a2a10ed63a324be105656649546f0be6d8a1"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-ExtraLight.ttf",
+      "sha1": "848a413a4d79c8bff066416dfa3771485d0c4ec9"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-Light.ttf",
+      "sha1": "77822e4eba7d32622113003e21b0d17ed7a8f528"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-Medium.ttf",
+      "sha1": "accdc4a94720336a48bb6fd31759bbfa268f902e"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-Regular.ttf",
+      "sha1": "7724dc42adf3e8caa9a1f7f64bc02016f201f550"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-SemiBold.ttf",
+      "sha1": "8e01f823ad73ea02ad96c676497c3e050d6e9e90"
+    },
+    {
+      "path": "src/assets/fonts/Outfit-Thin.ttf",
+      "sha1": "09459262264acfe2f30db5fcf2de63e6115449b6"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Black.ttf",
+      "sha1": "645e04c53c6b5b35bce654a811ebce16af8aa721"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-BlackItalic.ttf",
+      "sha1": "be4ef2aac7775a4b0179c0ecfce6cea8f7783f63"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-BoldItalic.ttf",
+      "sha1": "6de8952ca08d27ee77f57347d2cef4b4e26aa78f"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
+      "sha1": "4b5c0750f073abd576413a0898d3b95adaf199c8"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraBoldItalic.ttf",
+      "sha1": "94d3ee3acdbd00e37a715a25f2b5237666b5b8a3"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLight.ttf",
+      "sha1": "85af6582a7e6155917c605f9d3fed68c02b23b06"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ExtraLightItalic.ttf",
+      "sha1": "6fa0418f91032680d2d8fe4843009f2c80faa61d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Italic.ttf",
+      "sha1": "e2bfcd56016c3c915221ef1c5fc1a17b0776eb91"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "e247a92158e112f8bf7b638c8d95381d66b00dbb"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-LightItalic.ttf",
+      "sha1": "f76102b361e705751a83b7b22fe954daf1f27dd4"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-MediumItalic.ttf",
+      "sha1": "b592c62fdf88c40cfd0f031bba6423b1d4430472"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBoldItalic.ttf",
+      "sha1": "0c8bed0a5942b2388d36b11c115685d9f01700b0"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "09ba4dcd5509c8085bf88c665dcc51cbdfced27b"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-ThinItalic.ttf",
+      "sha1": "fb8fccca21550e71135f92bbaf8a2e8a12c90465"
+    },
+    {
+      "path": "src/assets/fonts/TenorSans-Regular.ttf",
+      "sha1": "9e8b5d8350c5310fed548e56baab4900f651ad6d"
+    }
+  ]
+}
