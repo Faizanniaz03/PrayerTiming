@@ -12,7 +12,7 @@ const PrayerBox = ({first,Prayer,Time,EndTime,color}:any) => {
         borderRadius:20,
         padding:20
     }}>
-      <Text style={{fontFamily:RegularFont,fontSize:16}}>{first}</Text>
+      <Text style={{fontFamily:RegularFont,fontSize:16,color:black}}>{first}</Text>
       <Text style={{color:secondaryColor,fontSize:26,fontFamily:RegularFont}}>{Prayer}</Text>
       <Text style={{fontSize:30,color:black,fontFamily:Bold}}>{Time}</Text>
     </View>

@@ -1,4 +1,5 @@
 import {
+  Alert,
   ScrollView,
   StyleSheet,
   Text,
@@ -34,7 +35,9 @@ interface TimingItem {
 }
 
 interface Data {
+  status_code: number;
   items: any;
+  country:string
 }
 
 const PrayerTiming: React.FC = () => {
@@ -73,7 +76,7 @@ const PrayerTiming: React.FC = () => {
     const prayerTimes = TimingsData?.items[0];
 
     if (!prayerTimes) {
-      console.error('No prayer times available in TimingsData');
+      Alert.alert('No prayer times available in TimingsData');
       return;
     }
 
@@ -110,20 +113,31 @@ const PrayerTiming: React.FC = () => {
 
     setCurrentPrayer(current);
     setNextPrayer(next);
-
-    console.log('🚀 ~ prayerTimingUpdate ~ currentPrayer:', current);
-    console.log('🚀 ~ prayerTimingUpdate ~ nextPrayer:', next);
   };
 
   const fetchData = async () => {
-    const response = await fetch(
-      `https://muslimsalat.com/${cityName}.json?key=7e664c1fb3b6eb58519e5132e40ca62b`,
-    );
-    const toJson: Data = await response.json();
-    console.log('🚀 ~ fetchData ~ toJson:', JSON.stringify(toJson));
-    setTimingsData(toJson);
-    setLoader(false);
+    try {
+      const response = await fetch(
+        `https://muslimsalat.com/${cityName}.json?key=7e664c1fb3b6eb58519e5132e40ca62b`,
+      );
+      const toJson: Data = await response.json();
+  
+      if (toJson.status_code === 101 || 0) {
+        setCityName('Rahim yar Khan')
+        Alert.alert('Invalid city name');
+        setLoader(false);
+        return;
+      }
+  
+      console.log('🚀 ~ fetchData ~ toJson:', JSON.stringify(toJson));
+      setTimingsData(toJson);
+      setLoader(false);
+    } catch (error: any) {
+      Alert.alert('Error fetching data', error.message);
+      setLoader(false);
+    }
   };
+  
 
   useEffect(() => {
     fetchData();
@@ -135,27 +149,28 @@ const PrayerTiming: React.FC = () => {
     }
   }, [TimingsData]);
 
-  const search = async () => {
-    if (!visible) {
-      setVisible(true);
+ const search = async () => {
+  if (!visible) {
+    setVisible(true);
+  } else {
+    if (!newCity) {
+      setCityName('Rahim yar Khan');
     } else {
-      if (!newCity) {
-        setCityName('Rahim yar Khan');
-      } else {
-        setCityName(newCity);
-      }
-      setLoader(true);
-      setVisible(false);
-      try {
-        await fetchData();
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setLoader(false);
-        setNewCity('')
-      }
+      setCityName(newCity);
     }
-  };
+    setLoader(true);
+    setVisible(false);
+    try {
+      await fetchData();
+    } catch (error: any) {
+      Alert.alert('Error fetching data:', error);
+    } finally {
+      setLoader(false);
+      setNewCity('');
+    }
+  }
+};
+
   const gregorianToHijriArabic = (gregorianDate: string): string => {
     const hijriDate = new Date(gregorianDate);
     const intl = new Intl.DateTimeFormat('ar-u-ca-islamic', {
@@ -167,7 +182,7 @@ const PrayerTiming: React.FC = () => {
   };
 
   return (
-    <View style={{ height: height, width: width }}>
+    <View style={{ height: height, width: width}}>
       {Loader ? (
         <View style={{ height: height, justifyContent: 'center' }}>
           <DotIndicator color={secondaryColor} size={20} />
@@ -195,6 +210,8 @@ const PrayerTiming: React.FC = () => {
                 <Text style={{ fontSize: 12 }}> </Text>
               </Text>
               <TextInput
+              returnKeyType='search'
+              onSubmitEditing={search}
                 style={{
                   width: 300,
                   borderWidth: 3,
@@ -203,7 +220,8 @@ const PrayerTiming: React.FC = () => {
                   fontFamily: RegularFont,
                   marginTop: 10,
                   display: visible ? 'flex' : 'none',
-                  textAlign:'center'
+                  textAlign:'center',
+                  color:black
                 }}
                 onChangeText={val => setNewCity(val)}
                 value={newCity}
@@ -247,13 +265,13 @@ const PrayerTiming: React.FC = () => {
           <View style={Styles.PrayerTimes2}>
             <View style={{flexDirection: 'row'}}>
               <View style={{marginRight: 10}}>
-                <FontAwesome name="map-marker" size={30} />
+                <FontAwesome name="map-marker" size={30} color={black}/>
               </View>
               <View>
                 <Text style={{fontSize: 24, fontFamily: Bold, color: black}}>
                   {cityName}
                 </Text>
-                <Text style={{fontSize: 16}}>{countryName}</Text>
+                <Text style={{fontSize: 16,color:black}}>{TimingsData?.country}</Text>
               </View>
             </View>
             <View style={styles.PrayerTimesView}>
@@ -273,7 +291,7 @@ const PrayerTiming: React.FC = () => {
               </View>
             </View>
           </View>
-          <View style={[Styles.PrayerTimes, {height: '8%'}]}>
+          <View style={[Styles.PrayerTimes, {height: '10%'}]}>
             <Times
               time={TimingsData?.items[0].shurooq}
               title={'SUNRISE'}

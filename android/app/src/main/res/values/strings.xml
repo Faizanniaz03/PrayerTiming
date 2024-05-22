@@ -3,6 +3,7 @@
     <string name="facebook_app_id">339438615911817</string>
     <string name="fb_login_protocol_scheme">fb1234</string>
     <string name="facebook_client_token">1749262944691abd1bc69eba714cff03</string>
-
-
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">X8SwPHFmwDUtY1jYEAJiqyQfF09ebLN_rIQm7</string>
 </resources>

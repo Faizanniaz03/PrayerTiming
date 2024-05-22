@@ -22,7 +22,7 @@ const Styles = StyleSheet.create({
       PrayerTimes2:{
         width: '90%',
         marginTop:20,
-        height: '42%',
+        height: '45%',
         backgroundColor: '#e2ddd9',
         alignSelf: 'center',
         borderRadius: 20,

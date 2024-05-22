@@ -10,6 +10,7 @@ import Splash from './src/screens/Splash'
 import PrayerTiming from './src/screens/PrayerTiming'
 const Stack = createNativeStackNavigator()
 import SplashScreen from 'react-native-splash-screen'
+import CodePush from 'react-native-code-push'
 const App = () => {
     useEffect(()=>{
         SplashScreen.hide()
@@ -23,6 +24,6 @@ const App = () => {
   )
 }
 
-export default App
+export default CodePush(App)
 
 const styles = StyleSheet.create({})

@@ -7,7 +7,7 @@ const Times = ({time,title,Align}:any) => {
     <View style={{width:'100%',flexDirection:'row'}}>
       <View style={{width: '100%',paddingHorizontal:8,flexDirection:'row',justifyContent:'space-between',alignItems:'center'}}>
           <Text
-            style={{textAlign:Align, fontSize: 18, fontFamily: RegularFont}}>
+            style={{textAlign:Align, fontSize: 18, fontFamily: RegularFont,color:black}}>
             {title}
           </Text>
           <Text
