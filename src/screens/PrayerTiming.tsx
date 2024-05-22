@@ -8,7 +8,7 @@ import {
   View,
   useWindowDimensions,
 } from 'react-native';
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
   Bold,
   RegularFont,
@@ -23,6 +23,7 @@ import Times from '../components/Times';
 import BellAndText from '../components/BellAndText';
 import PrayerNames from '../components/PrayerNames';
 import { DotIndicator } from 'react-native-indicators';
+import { useFocusEffect } from '@react-navigation/native';
 
 interface TimingItem {
   fajr: string;
@@ -74,22 +75,16 @@ const PrayerTiming: React.FC = () => {
 
   const prayerTimingUpdate = () => {
     const prayerTimes = TimingsData?.items[0];
-
     if (!prayerTimes) {
       Alert.alert('No prayer times available in TimingsData');
       return;
     }
-
     const now = new Date();
     const currentHours = now.getHours().toString().padStart(2, '0');
     const currentMinutes = now.getMinutes().toString().padStart(2, '0');
     const realTime = currentHours + currentMinutes;
-
-    console.log('🚀 ~ prayerTimingUpdate ~ realTime:', realTime);
-
     let current: string | null = null;
     let next: string | null = null;
-
     const prayers: (keyof TimingItem)[] = [
       'fajr',
       'dhuhr',
@@ -97,7 +92,6 @@ const PrayerTiming: React.FC = () => {
       'maghrib',
       'isha',
     ];
-
     for (let i = 0; i < prayers.length; i++) {
       const prayer = prayers[i];
       const currentPrayerTime = convertTo24HourFormat(prayerTimes[prayer]);
@@ -121,14 +115,12 @@ const PrayerTiming: React.FC = () => {
         `https://muslimsalat.com/${cityName}.json?key=7e664c1fb3b6eb58519e5132e40ca62b`,
       );
       const toJson: Data = await response.json();
-  
       if (toJson.status_code === 101 || 0) {
-        setCityName('Rahim yar Khan')
+        setCityName('Rahim yar Khan');
         Alert.alert('Invalid city name');
         setLoader(false);
         return;
       }
-  
       console.log('🚀 ~ fetchData ~ toJson:', JSON.stringify(toJson));
       setTimingsData(toJson);
       setLoader(false);
@@ -137,18 +129,16 @@ const PrayerTiming: React.FC = () => {
       setLoader(false);
     }
   };
-  
-
-  useEffect(() => {
-    fetchData();
-  }, [cityName]);
-
+  useFocusEffect(
+    useCallback(() => {
+      fetchData();
+    }, [cityName])
+  );
   useEffect(() => {
     if (TimingsData) {
       prayerTimingUpdate();
     }
   }, [TimingsData]);
-
  const search = async () => {
   if (!visible) {
     setVisible(true);
@@ -170,7 +160,6 @@ const PrayerTiming: React.FC = () => {
     }
   }
 };
-
   const gregorianToHijriArabic = (gregorianDate: string): string => {
     const hijriDate = new Date(gregorianDate);
     const intl = new Intl.DateTimeFormat('ar-u-ca-islamic', {
